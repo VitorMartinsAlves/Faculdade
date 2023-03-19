@@ -1,7 +1,7 @@
 # Exercício 1
 notas = []
 for x in range(3):
-    notas.append(float(input("Digite uma nota: ")))
+    notas.append(float(input(f"Digite a {x+1}º nota: ")))
 print("As notas digitas foram:\n")
 for y in range(3):
     print(f"{y + 1}º Nota: {notas[y]}")
@@ -24,7 +24,7 @@ print(f"A temperatura de {F}°F é igual a {(F - 32) / 1.8:.1f}°C\n\n")
 math = []
 for x in range(2):
     math.append(float(input(f"Digite o {x+1}º valor: ")))
-print(f"O quadrado da soma dos valores {math[0]} e {math[1]} é igual a {(math[0]+math[1])**2}")
+print(f"O quadrado da soma dos valores de {math[0]} e {math[1]} é igual a {(math[0]+math[1])**2}")
 
 # Exercício 5
 # a) i = (((108)+3) x 9)
