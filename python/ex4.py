@@ -54,7 +54,26 @@ else:
 delta = float(input("Digite a quantidade de gols do 1º time"))
 lapa = float(input("Digite outro numero"))
 if delta > lapa:
-    print(f"{l,k}")
+    print("O primeiro time ganhou")
 else:
     if delta < lapa:
-        print(f"{k}")
+        print("O segundo time ganhou")
+    else:
+        print("Os dois empataram")
+
+# ex 8
+senha = input("Digite sua senha:")
+if senha == "123":
+    print("Acesso permitido")
+else:
+    print("Acesso negado")
+
+# ex 9
+numMacas = int(input("Digite o número de maças: "))
+valor = 0 
+print(f" O número de maças é {numMacas}")
+if numMacas < 12:
+    valor = numMacas * 0.30
+else:
+    valor = numMacas*0.25
+print(f"O valor total da compra é {valor:.2f}")
