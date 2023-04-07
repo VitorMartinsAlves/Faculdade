@@ -45,7 +45,7 @@ else:
 # ex 6
 idade = float(input("Digite seu ano de nascimento"))
 idade = idade - 2023
-if idade < 16:
+if idade > 16:
     print("Você pode votar!")
 else:
     print("Você não pode votar")
