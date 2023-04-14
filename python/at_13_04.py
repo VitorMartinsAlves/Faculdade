@@ -2,8 +2,7 @@ condi = True
 condi2 = True
 condi3 = 10
 condi4 = True
-
-
+Soma = 0
 if condi:
     print(f"Condição 01 {type(condi),condi}")
 elif condi2:
