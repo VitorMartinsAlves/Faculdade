@@ -33,9 +33,9 @@ showData()
 
 def verifyWin():
     for x in win:
-        #print("combinações")
-        #print(x[0], x[1], x[2])
-        #print(square[x[0]], square[x[1]], square[x[2]])
+        # print("combinações")
+        # print(x[0], x[1], x[2])
+        # print(square[x[0]], square[x[1]], square[x[2]])
         if square[x[0]] == "🟥" and square[x[1]] == "🟥" and square[x[2]] == "🟥":
             print("Vermelho ganhou")
             return True
@@ -74,7 +74,7 @@ def game():
         print("Este campo já foi selecionado!")
         return init()
 
-    print(f"Nova posição {arrayPos}")
+    # print(f"Nova posição {arrayPos}")
     square.pop(arrayPos)
     square.insert(arrayPos, "🟥")
 
