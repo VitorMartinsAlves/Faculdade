@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+* {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://wallpapercave.com/wp/wp2293431.jpg');
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* padding: 10px; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    /* width: 15vw; */
+    /* height: 40vh; */
+    background-color: rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(10px);
+}
+
+a {
+    font-weight: bolder;
+    text-align: center;
+    color: inherit;
+    text-decoration: inherit;
+    color: white;
+    background-color: rgb(95, 119, 255);
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    transition: 0.2s;
+    margin-top: 20px;
+}
+
+input {
+
+    border-bottom: none;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+input:focus {
+    outline: none !important;
+}
+
+a:hover {
+    color: rgb(95, 119, 255);
+    background-color: white;
+    transition: 0.2s;
+}
