@@ -10,6 +10,7 @@ def convert_bi(binario):
         decimal += digito * (2 ** potencia)
         binario //= 10
         potencia += 1
+        # print(digito,decimal,binario,potencia)
     return decimal
 
 activeMenu = True
