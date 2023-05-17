@@ -19,7 +19,7 @@ def convert_bi(binario):
 
 activeMenu = True
 while activeMenu:
-    print("\n\n\nMenu:\n1- Dados do grupo e aplicação\n2- Resolução da atividade proposta.")
+    print("\n\n\nMenu:\n1- Dados do grupo e aplicação\n2- Resolução da atividade proposta.\n3- Sair")
     choice = int(input("Digite uma opção: "))
     if choice == 1:
         print(groupInfo())
@@ -30,3 +30,7 @@ while activeMenu:
         print(
             f"O valor de {orignial_value} convetido para base 10 é: {convert_bi(orignial_value)}")
         time.sleep(10)
+    if choice == 3:
+        print("O programa foi finalizado!")
+        time.sleep(10)
+        break
