@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    border-bottom: solid 1px black;
+    color: white;
+    background-color: #61852e;
+    /* background-image: url("./images/header.png"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 110px;
+}
+
+main {
+   /* justify-content: center; */
+   
+   padding-bottom: 10px;
+}
+
+.firstClass {
+    text-align: justify;
+    display: flex;
+    width: 70%;
+}
+
+.firstClass img {
+    width: 250px;
+}
+
+header h1 {
+    font-weight: bolder;
+}
+
+header p {
+    font-size: 20px;
+}
+
+main h1 {
+    color: rgb(9, 53, 9);
+}
+
+.background {
+    background-image: url("./images/banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    /* width: 100%; */
+    background-size: 100% 100%;
+
+}
+
+.content {
+    width: 63vw;
+}
+
+.content img {
+    float: right;
+
+}
+
+body {
+    background: rgb(188, 222, 255);
+    background: linear-gradient(180deg, rgb(209, 232, 255) 0%, rgba(245, 250, 255, 1) 39%, rgba(255, 255, 255, 1) 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.cabecalho {
+    /* width: 100vw; */
+    padding: 28px;
+}
+
+ul {
+    list-style-type: none
+}
+
+.content p {
+    width: 680px;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+main {
+    background-color: white;
+}
+
+.shadow {
+    box-shadow: rgba(0, 0, 0, 0.252) 0px 5px 15px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.flex-box {
+    /* font-weight: 100; */
+    font-size: 12px;
+    justify-content: space-between;
+    display: flex;
+    margin: 20px;
+}
+
+.lessLetal {
+    width: 50%;
+}
+
+.links {
+    width: 13vw;
+    border: 1px solid green;
+    padding: 10px;
+    background-color: rgb(225, 238, 218);
+}
+
+.links h2 {
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+.links li {
+    padding: 3px;
+}
+main span {
+    margin: 40%;
+    text-align: center;
+    color: gray;
+}
+main h2,
+h1 {
+    /* font-size: 20px; */
+    font-weight: 400;
+}
