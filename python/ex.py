@@ -1,10 +1,25 @@
-num1 = int(input("Digite o primeiro numero: "))
-num2 = int(input("Digite o segundo numero:"))
+import time
 
-if num1 > num2:
-    print('O primeiro, %d, é maior' % num1)
-else:
-    if num1 == num2:
-        print('Os numeros são iguais')
-    else:
-        print('O segundo, %d, é maior' % num2)
+
+class CreateAccount:
+    def __init__(self,user_id: int, username: str, email: str, birthday: str, adress: str, phonenumber: str | None = None) -> None:
+        self.phonenumber = phonenumber
+        self.birthday = birthday
+        self.username = username
+        self.user_id = user_id
+        self.adress = adress
+        self.email = email
+        self.money = 0
+
+    def userData(self):
+        return self.user_id
+
+    def moneyAccount(self):
+        return self.money
+    
+    
+print(time)
+
+# main_user = CreateAccount()
+# main_user.registerUser(1, "vitorMartins", "vitormartins@gmail.com", '07/10/1999', 'Rua Jóse Milani')
+# print(main_user.userData())
